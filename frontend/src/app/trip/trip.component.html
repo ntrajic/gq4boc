@@ -1,0 +1,9 @@
+<div *ngIf="trip">
+  <h1>{{ trip.id }} {{ trip.tdest }} {{ trip.tdate }} {{ trip.tlead }}</h1>
+  <p>Trip Lead: <span [ngStyle]="">{{ trip.tlead}}</span></p>
+  <p>Trip Report: {{ trip.treport }}</p>
+  <p>Photos:  {{ trip.photos }},
+
+  </p>
+  <p><a href="/">Go back</a></p>
+</div>
